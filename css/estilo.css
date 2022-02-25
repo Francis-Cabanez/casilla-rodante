@@ -1,0 +1,474 @@
+* {
+	
+	font-family: 'Azeret Mono', monospace;
+	font-family: 'Dongle', sans-serif;
+	font-family: 'Yellowtail', cursive;
+	background-image: url(../assets/img/fondo.png);
+	
+}	
+
+
+.header__logo{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-image: url(../assets/img/fondonav.png);
+	text-align: center;
+	
+	
+}
+
+
+.nav li {
+	display: inline;
+	padding: 0 30px;
+	font-weight: bold;
+
+
+	
+}
+.nav li a {
+	
+	text-decoration: none;
+	color: rgb(47, 47, 47);
+	
+
+}
+
+.navbar ul{
+	display: flex;
+	flex-direction: row;
+	
+	justify-content: center;
+	text-align: center;
+	padding-bottom: 50px;
+
+
+}
+
+.navbar a:hover{
+	color: rgb(147, 147, 147);
+
+}
+
+/*------------------Pag_1------------------------*/
+
+.info__principal {
+
+	display: flex;
+    flex-wrap: wrap;
+	border:solid 10px rgb(147, 147, 147) ;
+	border-style: double;
+
+	
+}
+
+.info__principal p{
+	text-align: center;
+	padding-left:10px;
+	padding-right: 10px;
+
+}
+.foto {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+	
+	opacity: 0.9;
+
+}
+.foto img{
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.logo__bajo{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 50px;
+
+}
+
+.redes__sociales{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 75px;
+}
+	
+
+
+/*--------------------pag_2------------------------*/
+
+
+.titulo__h1{
+
+	text-align: center;
+	color: rgb(65, 118, 111);
+	text-decoration: underline;
+
+}
+
+
+.textPost1{
+	display: flex;
+	flex-direction: row;
+	border: solid 10px rgb(108, 108, 108);
+	border-style: double;
+
+
+}
+
+.img__Post1{
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 50px;
+}
+
+.textPost1 p{
+	text-align: center;
+	padding-top: 100px;
+	padding-right: 100px;
+}
+
+.textPost2{
+	display: flex;
+	flex-direction: row-reverse;
+	border: solid 10px rgb(108, 108, 108);
+	border-style: double;
+
+}
+
+.img__Post2{
+
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 50px;
+}
+
+.textPost2 p{
+	text-align: center;
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+.textPost3{
+
+	display: flex;
+	flex-direction: row;
+	border: solid 10px rgb(108, 108, 108);
+	border-style: double;
+
+}
+
+.img__Post3{
+
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 50px;
+}
+
+.textPost3 p{
+	text-align: center;
+	padding-top: 100px;
+	padding-right: 100px;
+}
+
+
+/*-----------------page3---------------------*/
+
+.titulo2__h1 h1{
+
+	text-align: center;
+	color: rgb(65, 118, 111);
+	text-decoration: underline;
+
+}
+
+.pregunta__1 h3{
+
+	text-align: center;
+	color: rgb(12, 54, 128);
+	font-size: 20px;
+}
+
+.pregunta__1 p{
+
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.pregunta__1 {
+
+	border: double 10px rgb(0, 82, 132);
+	border-radius: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+
+}
+.pregunta__2 p{
+
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.pregunta__2 h3{
+
+	text-align: center;
+	color: rgb(12, 54, 128);
+	font-size: 20px;
+}
+
+.pregunta__2 {
+
+	border: double 10px rgb(0, 82, 132);
+	border-radius: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+
+}
+.pregunta__2 p{
+
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.pregunta__3 p{
+
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.pregunta__3 h3{
+
+	text-align: center;
+	color: rgb(12, 54, 128);
+	font-size: 20px;
+}
+
+.pregunta__3 {
+
+	border: double 10px rgb(0, 82, 132);
+	border-radius: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+
+}
+.pregunta__3 p{
+
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.pregunta__4 p{
+
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.pregunta__4 h3{
+
+	text-align: center;
+	color: rgb(12, 54, 128);
+	font-size: 20px;
+}
+
+.pregunta__4 {
+
+	border: double 10px rgb(0, 82, 132);
+	border-radius: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+
+}
+.pregunta__4 h1{
+
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+
+
+/*-------------------------page4---------------------------------*/
+
+
+.titulo3__h1{
+
+	text-align: center;
+	color: rgb(65, 118, 111);
+	text-decoration: underline;
+}
+
+
+
+.lugar__1{
+
+	text-align: center;
+	border-style: inset;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-right: 20px ;
+	padding-left: 20px ;
+}
+
+.lugar__2{
+
+	text-align: center;
+	border-style: inset;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-right: 20px ;
+	padding-left: 20px ;
+
+}
+
+.lugar__3{
+
+	text-align: center;
+	border-style: inset;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-right: 20px ;
+	padding-left: 20px ;
+
+}
+
+.lugar__4{
+
+	text-align: center;
+	border-style: inset;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-right: 20px ;
+	padding-left: 20px ;
+
+}
+
+/*--------------------------pague5------------------------------------*/
+
+.formulario{
+
+	text-align: center;
+}
+
+.legend{
+
+	text-align: center;
+	color: rgb(65, 118, 111);
+	text-decoration: underline
+
+}
+
+/*--------------------------GRID--------------------------------*/
+
+
+	
+.contenedor__body{
+
+	display: grid;
+	grid-template-areas: 
+
+	"encabezado"
+	"info__principal"
+	"footer";
+	grid-template-columns: 100%;
+	grid-template-rows: auto auto auto;
+
+}
+.encabezado{
+	grid-area: encabezado;
+
+}
+main{
+	grid area: info__principal;
+}
+footer{
+	grid-area: footer;
+}
+
+/*------------------MEDIA QUERIE-------------------*/
+
+
+@media only screen and (max-width: 768px){
+
+
+.contenedor__body{
+
+	display: grid;
+	grid-template-areas: 
+
+	"encabezado"
+	"info__principal "
+	"footer";
+
+	grid-template-columns: 100%;
+	grid-template-rows:auto auto auto;
+
+}
+.encabezado{
+	grid-area: encabezado;
+
+}
+
+
+.post0{
+	grid area: info__principal;
+	display: flex;
+	font-size: 10px;
+	width: 100%;
+
+
+}
+
+
+.navbar li {
+	grid-area: footer;
+	display: flex;
+	padding-left: 1px;
+	padding-right: 2px;
+	font-size: 10px;
+	margin-left: 0px;
+
+
+
+}
+
+.redes__sociales{
+	width: 135px;
+	display: flex;
+	padding-left: 134px;
+}
+
+
+
+}
